@@ -1,0 +1,32 @@
+{
+  "hello":"hello",
+  "experiences":[{
+  "company": "ASHRAE Ryerson Chapter",
+  "jobTitle": "Web Developer",
+  "jobYear":["July 2019","Present"],
+  "techstacks": "HTML, CSS, bulma, Javascript, Git, Figma, Django, Heroku",
+  "shortDesc": ["🎨Design and code web pages. I make every efforts to create a visually appealing and and user-friendly yet professional looking website.","💻Work on Backend, Front End and Deployment","💽Data processing and querying"],
+  "content": ["ASHRAE Ryerson, founded in 2014, is the Ryerson University student chapter of ASHRAE. We aim to connect students with professionals in the HVAC(heating, ventilation, and air conditioning) and building industries, giving undergraduates the opportunity to foster industry connections and learn about cutting-edge technological developments","In general, my role in ASHRAE is to design and code the web pages. I make every efforts to create a visually appealing and and user-friendly yet professional looking website. To craft the website, I mostly work 65:35 on front-ent and backend respectively.","The WebApp is primarily built on HTML/CSS, Bulma, Django and SQLite. Designed using Figma."],
+  "imageLink": "/ashrae-sample-work-don-khalil-alwaini.jpg"
+  },{
+  "company": " Global Energi Makmur",
+  "jobTitle": "Web Developer Intern",
+  "jobYear":["July 2018","September 2018"],
+  "techstacks": "HTML/CSS, Django and SQLite",
+  "shortDesc": ["📊Data querying and visualization","👨‍💻Maintaining, improving and testing existing code","🔍Contribute to researching and implementing cost-effective, scalable IT infrastructure as the firm expands"],
+  "content": ["Global Energi Makmur, or GEM for short, is an Indonesian based mining company. GEM is involved in coal mining and transport, as well as logging and transporting the logs","Overall, The company was transitioning from manual recording of each truck that take days to obtain the result, to a more streamlined webapp that everyone that has login id can see. My role in the internship was to implement a webapp for the company to track each truck they have on route from one site to another site. Hence, we'll be able to calculate the productivity of the truck or the driver.","The webapp is primarily built on HTML/CSS, Django and MySQL. "],
+  "imageLink": ""
+  }],
+  "sideProjects":[{
+  "projectTitle": "ashrae",
+  "projectDesc": "reweb developert",
+  "projectYear":"ghh",
+  "projectLink": "gold"
+  },{
+  "projectTitle": "ashrae",
+  "projectDesc": "reweb developert",
+  "projectYear":"ghh",
+  "projectLink": "gold"
+  }]
+  
+}
