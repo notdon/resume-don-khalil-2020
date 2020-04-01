@@ -16,17 +16,5 @@
   "shortDesc": ["📊Data querying and visualization","👨‍💻Maintaining, improving and testing existing code","🔍Contribute to researching and implementing cost-effective, scalable IT infrastructure as the firm expands"],
   "content": ["Global Energi Makmur, or GEM for short, is an Indonesian based mining company. GEM is involved in coal mining and transport, as well as logging and transporting the logs","Overall, The company was transitioning from manual recording of each truck that take days to obtain the result, to a more streamlined webapp that everyone that has login id can see. My role in the internship was to implement a webapp for the company to track each truck they have on route from one site to another site. Hence, we'll be able to calculate the productivity of the truck or the driver.","The webapp is primarily built on HTML/CSS, Django and MySQL. "],
   "imageLink": ""
-  }],
-  "sideProjects":[{
-  "projectTitle": "ashrae",
-  "projectDesc": "reweb developert",
-  "projectYear":"ghh",
-  "projectLink": "gold"
-  },{
-  "projectTitle": "ashrae",
-  "projectDesc": "reweb developert",
-  "projectYear":"ghh",
-  "projectLink": "gold"
-  }]
-  
+  }]  
 }

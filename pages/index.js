@@ -12,6 +12,7 @@ import Navbarr from '../components/Navbarr'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 
+
 function BioAndSkills() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -25,7 +26,6 @@ function BioAndSkills() {
 
 export default function About() {
   return (
-    <div>
     <Layout>
     <Container maxWidth="sm">
 
@@ -34,6 +34,5 @@ export default function About() {
 
     </Container>
     </Layout>  
-    </div>
   );
 }

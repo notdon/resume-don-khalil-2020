@@ -9,6 +9,7 @@ import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core/styles';
+import { motion } from "framer-motion"
 
 
 
@@ -40,6 +41,21 @@ function BioCard() {
         setExpanded(!expanded);
     };
     return (
+        <motion.div 
+        
+        initial={{
+            opacity:0,
+            scale:1.2
+        }}
+
+        animate={{
+            opacity:1,
+            scale:1
+        }}
+        
+        transition={{duration:2}}
+
+        >
         <Paper>
             <Grid container>
 
@@ -78,6 +94,7 @@ function BioCard() {
                 </Grid>
             </Grid>
         </Paper>
+        </motion.div>
     )
 }
 

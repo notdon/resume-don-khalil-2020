@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import datas from '../../src/data'
+import { motion } from "framer-motion"
 
 
 const percentWidth = '100%'
@@ -44,13 +45,30 @@ export default function WorkExperience() {
         setExpanded(!expanded);
     };
 
-    const havePic = datas.experiences.imageLink != ""
+    // console.log(Object.keys(datas.experiences).length)
     return (
         <div>
             {
                 datas.experiences.map((skill, i) => {
                     return (
                         <div key={i}>
+                            <motion.div
+
+                                initial={{
+                                    x: 500,
+                                    opacity: 0,
+                                    scale: 1
+                                }}
+
+                                animate={{
+                                    x:0,
+                                    opacity: 1,
+                                    scale: 1
+                                }}
+
+                                transition={{ ease: "easeOut", duration: 2 }}
+
+                            >
                             <Card className={classes.root}>
                                 <CardHeader
                                     title={`${skill.jobTitle} at ${skill.company}`}
@@ -99,13 +117,13 @@ export default function WorkExperience() {
                                             {skill.content[2]}
                                         </Typography>
                                         {/* insert images here */}
-                                         {havePic ? 'currently' : 'not'}
-                                        
+                                        {/* {havePic ? 'currently' : 'not'} */}
                                         {/* <img src="/ashrae-sample-work-don-khalil-alwaini.jpg"></img> */}
                                     </CardContent>
                                 </Collapse>
                             </Card>
                             <br></br>
+                            </motion.div>
                         </div>
                     );
                 })

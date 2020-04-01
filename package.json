@@ -7,6 +7,7 @@
     "@material-ui/icons": "^4.9.1",
     "bulma": "^0.8.0",
     "clsx": "latest",
+    "framer-motion": "^1.10.2",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
