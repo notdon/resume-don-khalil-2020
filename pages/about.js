@@ -6,9 +6,12 @@ import MuiLink from '@material-ui/core/Link';
 import ProTip from '../src/ProTip';
 import { Button, Link } from '@material-ui/core';
 import Navbarr from '../components/Navbarr';
-import WorkExperience from '../components/WorkExperience/WorkExperienceCard'
+import datas from '../src/data.json'
+
+
 import TableAnimated from '../components/TableAnimated'
 import Layout from '../components/Layout';
+import WorkExperienceLoop from '../components/WorkExperience/WorkExperienceLoop';
 
 
 export default function Index() {
@@ -17,7 +20,7 @@ export default function Index() {
       <Container maxWidth="sm">
         <Box my={4}>
           <Typography variant="h3">Work Experiences</Typography>
-          <WorkExperience />
+          <WorkExperienceLoop props={datas}/>
           <Typography variant="h3">Side Projects</Typography>
           <TableAnimated />
           <Typography align="center">
