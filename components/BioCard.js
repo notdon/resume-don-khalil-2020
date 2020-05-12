@@ -3,10 +3,11 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+import { Typography, Button } from '@material-ui/core';
 import Collapse from '@material-ui/core/Collapse';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
+
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core/styles';
 import { motion } from "framer-motion"
@@ -19,10 +20,11 @@ const useStyles = makeStyles(theme => ({
 
     expand: {
         transform: 'rotate(0deg)',
-        marginLeft: 'auto',
+        marginRight: 'auto',
         transition: theme.transitions.create('transform', {
             duration: theme.transitions.duration.shortest,
         }),
+        
     },
     expandOpen: {
         transform: 'rotate(180deg)',
@@ -59,7 +61,7 @@ function BioCard() {
         <Paper>
             <Grid container>
 
-                <Grid style={{ padding: 20 }} item xs={12}>
+                <Grid style={{ padding: 20 }} item xs={12} md={12}>
                     <img style={{ borderRadius: 150 + 'px', height: 100, maxWidth: 100, top: -100 }} alt="Don Khalil" src="/profile.jpg" />
 
                     <Typography variant="h3">Don Khalil</Typography>
@@ -67,6 +69,8 @@ function BioCard() {
                     <Typography variant="subtitle1">Computer Science - Ryerson University '20</Typography>
                     <br />
                     <Typography variant="subtitle1">Programmer and Designer with the ability of storytelling and creative problem solving.</Typography>
+                    <div style={{marginTop:'5%'}}>
+                    <Button variant="contained" color="secondary" href='https://dondndk.typeform.com/to/m1uzQ5'>Download Resume</Button>
                     <IconButton
                         className={clsx(classes.expand, {
                             [classes.expandOpen]: expanded,
@@ -75,8 +79,10 @@ function BioCard() {
                         aria-expanded={expanded}
                         aria-label="show more"
                     >
+                        
                         <ExpandMoreIcon />
                     </IconButton>
+                    </div>
                     <Collapse in={expanded} timeout="auto" unmountOnExit>
                         <Typography variant="body1" align="left" paragraph>
                             As-soon-to-be graduated computer scientist, being a programmer has helped me to be persevere and patient when my program doesn't work the first time. It also train my thought process to find an efficient and feasible solution while being resourceful and adaptable with what I have in my tool belt.
