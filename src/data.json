@@ -1,9 +1,17 @@
 {
   "hello":"hello",
   "experiences":[{
+  "company": "Messari",
+  "jobTitle": "Crypto Analyst",
+  "jobYear":["September 2020","Present"],
+  "techstacks": "mySQL, Solidity",
+  "shortDesc": ["🎨Write and analyze about crypto projects and market in general","💻Collaborate with different crypto projects","💽Data processing and querying"],
+  "content": ["Messari's mission is to promote transparency and smarter decision-making in the cryptoasset community. Their open-source data library helps researchers, investors, and regulators make sense of the industry. The company was founded in 2018 and is based in New York, USA."],
+  "imageLink": "/messari.jpg"
+  },               {
   "company": "ASHRAE Ryerson Chapter",
   "jobTitle": "Web Developer",
-  "jobYear":["July 2019","Present"],
+  "jobYear":["July 2019","July 2020"],
   "techstacks": "HTML, CSS, bulma, Javascript, Git, Figma, Django, Heroku",
   "shortDesc": ["🎨Design and code web pages. I make every efforts to create a visually appealing and and user-friendly yet professional looking website.","💻Work on Backend, Front End and Deployment","💽Data processing and querying"],
   "content": ["ASHRAE Ryerson, founded in 2014, is the Ryerson University student chapter of ASHRAE. We aim to connect students with professionals in the HVAC(heating, ventilation, and air conditioning) and building industries, giving undergraduates the opportunity to foster industry connections and learn about cutting-edge technological developments","In general, my role in ASHRAE is to design and code the web pages. I make every efforts to create a visually appealing and and user-friendly yet professional looking website. To craft the website, I mostly work 65:35 on front-ent and backend respectively.","The WebApp is primarily built on HTML/CSS, Bulma, Django and SQLite. Designed using Figma."],
