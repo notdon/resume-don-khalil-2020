@@ -85,7 +85,7 @@ function BioCard() {
                     </div>
                     <Collapse in={expanded} timeout="auto" unmountOnExit>
                         <Typography variant="body1" align="left" paragraph>
-                            As-soon-to-be graduated computer scientist, being a programmer has helped me to be persevere and patient when my program doesn't work the first time. It also train my thought process to find an efficient and feasible solution while being resourceful and adaptable with what I have in my tool belt.
+                            Being a programmer has helped me to be persevere and patient when my program doesn't work the first time. It also train my thought process to find an efficient and feasible solution while being resourceful and adaptable with what I have in my tool belt.
                         </Typography>
                         <Typography variant="body1" align="left" paragraph>
                         As someone who enjoys the work of art, I also like to design the interface of my program. I enjoy the creativity that I got when I create the visual element of a website/an app. In a nutshell, my passion for innovation and constant learning is accompanied with the thrill of production to create the most accessible and great looking interface.
@@ -94,7 +94,7 @@ function BioCard() {
                         It is also my core mission to build(or help build) a product that are not only visually appealing, but also easy to use and could benefit the society in the big picture.
                         </Typography>
                         <Typography variant="body1" align="left" paragraph>
-                        My current interest is Software Development with focus on Front End Web Development and Web/App UI and UX design. In my free time, I also like to create surrealist art and taking photographs of urban street art. I also like to research the next unicorn in CryptoAssets and discuss about the bull case of CryptoCurrency/CryptoAssets online.
+                        My current interest is Software Development with focus on Cryptoassets and Web3. In my free time, I also like to create surrealist art and taking photographs of urban street art. I also like to research the next unicorn in CryptoAssets and discuss about the bull case of CryptoCurrency/CryptoAssets online.
                         </Typography>
                     </Collapse>
                 </Grid>
