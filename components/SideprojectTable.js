@@ -34,6 +34,10 @@ function createData(name, year, description, link) {
 }
 
 const rows = [
+  createData('DeeraNFT', 2020, "Data dashboard for Deera NFT project", "https://dune.xyz/donkhalil/Deera"),
+  createData('ARCx', 2020, "Data dashboard for ARCx project", "https://dune.xyz/donkhalil/arcx"),
+  createData('xToken', 2020, "Data dashboard for xToken project", "https://dune.xyz/donkhalil/xtoken-market"),
+  createData('Basis Cash', 2020, "Data dashboard for basis.cash project", "https://dune.xyz/donkhalil/basis-cash_1"),
   createData('Avon Collective', 2019, "Ecommerce store using Shopify", "https://avoncollective.com"),
   createData('Bloom', 2018, "documentation technical writer for decentralized identity system", "https://github.com/notdon/bloom-attestation-kit"),
   createData('Ambrosus', 2018, "UI mock up and prototype for Decentralized Marijuana Marketplace", "Available on request"),
