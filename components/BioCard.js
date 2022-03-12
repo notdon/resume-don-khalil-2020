@@ -70,7 +70,7 @@ function BioCard() {
                     <br />
                     <Typography variant="subtitle1">Programmer and Designer with the ability of storytelling and creative problem solving.</Typography>
                     <div style={{marginTop:'5%'}}>
-                    //<Button variant="contained" color="secondary" href=''>Download Resume</Button>
+                    <!-- <Button variant="contained" color="secondary" href=''>Download Resume</Button> -->
                     <IconButton
                         className={clsx(classes.expand, {
                             [classes.expandOpen]: expanded,
