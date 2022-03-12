@@ -65,12 +65,12 @@ function BioCard() {
                     <img style={{ borderRadius: 150 + 'px', height: 100, maxWidth: 100, top: -100 }} alt="Don Khalil" src="/profile.jpg" />
 
                     <Typography variant="h3">Don Khalil</Typography>
-                    <Typography variant="subtitle2">Full Stack Web Ninja</Typography>
+                    <Typography variant="subtitle2">Full Stack Ninja</Typography>
                     <Typography variant="subtitle1">Computer Science - Bachelor of Science(Honours)</Typography>
                     <br />
                     <Typography variant="subtitle1">Programmer and Designer with the ability of storytelling and creative problem solving.</Typography>
                     <div style={{marginTop:'5%'}}>
-                    
+                    //<Button variant="contained" color="secondary" href=''>Download Resume</Button>
                     <IconButton
                         className={clsx(classes.expand, {
                             [classes.expandOpen]: expanded,
