@@ -62,7 +62,7 @@ function BioCard() {
             <Grid container>
 
                 <Grid style={{ padding: 20 }} item xs={12} md={12}>
-                    <img style={{ borderRadius: 150 + 'px', height: 100, maxWidth: 100, top: -100 }} alt="Don Khalil" src="/profpic.jpeg" />
+                    <img style={{ borderRadius: 150 + 'px', height: 100, maxWidth: 100, top: -100 }} alt="Don Khalil" src="/profpic.jpg" />
 
                     <Typography variant="h3">Don Khalil</Typography>
                     <Typography variant="subtitle2">Full Stack Ninja</Typography>
